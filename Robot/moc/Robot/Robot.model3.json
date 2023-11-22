@@ -1,0 +1,57 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Robot.moc3",
+		"Textures": [
+			"Robot.8192/texture_00.png"
+		],
+		"Physics": "Robot.physics3.json",
+		"DisplayInfo": "Robot.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "joy11-1",
+				"File": "../exp/表情/Joy/Joy01.exp3.json"
+			},
+			{
+				"Name": "joy11-10",
+				"File": "../exp/表情/Joy/Joy10.exp3.json"
+			},
+			{
+				"Name": "sad11-1",
+				"File": "../exp/表情/Sad/Sad01.exp3.json"
+			},
+			{
+				"Name": "sad11-10",
+				"File": "../exp/表情/Sad/Sad10.exp3.json"
+			},
+			{
+				"Name": "anger11-1",
+				"File": "../exp/表情/Anger/Anger01.exp3.json"
+			},
+			{
+				"Name": "anger11-10",
+				"File": "../exp/表情/Anger/Anger10.exp3.json"
+			},
+			{
+				"Name": "regret11-1",
+				"File": "../exp/表情/Regret/Regret01.exp3.json"
+			},
+			{
+				"Name": "regret11-10",
+				"File": "../exp/表情/Regret/Regret10.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}
