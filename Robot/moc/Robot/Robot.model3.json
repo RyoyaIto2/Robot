@@ -48,7 +48,7 @@
 		"Motions":{
 			"waiting":[
 				{
-					
+
 				}
 			]
 		}
@@ -63,8 +63,8 @@
 			"Target": "Parameter",
 			"Name": "EyeBlink",
 			"Ids": [
-				"ParamEyeOpenL",
-				"ParamEyeOpenR"
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
 			]
 		}
 	],
