@@ -9,39 +9,49 @@
 		"DisplayInfo": "Robot.cdi3.json",
 		"Expressions": [
 			{
-				"Name": "joy11-1",
+				"Name": "Joy01",
 				"File": "../../motion/exp/表情/Joy/Joy01.exp3.json"
 			},
 			{
-				"Name": "joy11-10",
+				"Name": "Joy10",
 				"File": "../../motion/exp/表情/Joy/Joy10.exp3.json"
 			},
 			{
-				"Name": "sad11-1",
+				"Name": "Sad01",
 				"File": "../../motion/exp/表情/Sad/Sad01.exp3.json"
 			},
 			{
-				"Name": "sad11-10",
+				"Name": "Sad10",
 				"File": "../../motion/exp/表情/Sad/Sad10.exp3.json"
 			},
 			{
-				"Name": "anger11-1",
+				"Name": "Anger01",
 				"File": "../../motion/exp/表情/Anger/Anger01.exp3.json"
 			},
 			{
-				"Name": "anger11-10",
+				"Name": "Anger10",
 				"File": "../../motion/exp/表情/Anger/Anger10.exp3.json"
 			},
 			{
-				"Name": "regret11-1",
+				"Name": "Regret01",
 				"File": "../../motion/exp/表情/Regret/Regret01.exp3.json"
 			},
 			{
-				"Name": "regret11-10",
+				"Name": "Regret10",
 				"File": "../../motion/exp/表情/Regret/Regret10.exp3.json"
+			},
+			{
+				"Name": "Neutral",
+				"File": "../../motion/exp/表情/Neutral/Neutral.exp3.json"
 			}
-			
-		]
+		],
+		"Motions":{
+			"waiting":[
+				{
+					
+				}
+			]
+		}
 	},
 	"Groups": [
 		{
@@ -52,7 +62,11 @@
 		{
 			"Target": "Parameter",
 			"Name": "EyeBlink",
-			"Ids": []
+			"Ids": [
+				"ParamEyeOpenL",
+				"ParamEyeOpenR"
+			]
 		}
-	]
+	],
+	"HitAreas": []
 }
