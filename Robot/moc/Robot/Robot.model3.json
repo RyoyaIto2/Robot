@@ -45,10 +45,19 @@
 				"File": "../../motion/exp/表情/Neutral/Neutral.exp3.json"
 			}
 		],
-		"Motions":{
-			"waiting":[
+		"Motions": {
+			"waiting": [
 				{
-
+					"File": "../../motion/waiting/EyeBlink.motion3.json",
+					"FadeInTime": 0.3,
+					"FadeOutTime": 0.5
+				}
+			],
+			"waiting2": [
+				{
+					"File": "../../motion/waiting/Scene1.motion3.json",
+					"FadeInTime": 1,
+					"FadeOutTime": 1
 				}
 			]
 		}
